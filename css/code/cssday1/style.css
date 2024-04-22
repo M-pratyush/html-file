@@ -1,0 +1,21 @@
+/*Element selector*/
+body{
+    background-color: cadetblue;
+}
+h1{
+    color: deeppink;
+}
+button{
+    background-color: blueviolet;
+    color: chartreuse;
+}
+/*Class Selector*/
+.btn{
+    background-color: brown;
+    color: rgb(28, 34, 28);
+}
+/*Id Selector*/
+#second{
+    background-color: darkgreen;
+    color: cyan;
+}

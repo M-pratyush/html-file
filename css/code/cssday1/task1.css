@@ -1,0 +1,18 @@
+/*Element Selector*/
+button{
+    background-color: red;
+    color: white;
+}
+h1{
+    color: aqua;
+}
+/*Class Selector*/
+.btn{
+    background-color: black;
+    color: wheat;
+}
+/*Id Selector*/
+#you{
+    background-color:white ;
+    color: black;
+}

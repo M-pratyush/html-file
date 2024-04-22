@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.oggy{
+    height: 280px;
+    width: 200px;
+    float: right;
+}
+body{
+    background-image: linear-gradient(rgb(223, 100, 186),rgb(235, 182, 85))
+}
+h1{
+    color:rgb(255, 94, 0);
+    text-align: center;
+}
+.box{
+    height: 278px;
+    width: 460px;
+    background-color:cadetblue
+}
+#para{
+    font-family: "Indie Flower", cursive;
+    font-weight: 700 ;
+    font-variant: small-caps;
+}

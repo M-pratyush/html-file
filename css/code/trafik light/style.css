@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+.you{
+    background-color: black;
+    height: 330px;
+    width: 60px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.rbox{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px double red;
+}
+.obox{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px double orange;
+}
+.gbox{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px double green;
+}
+.stand{
+    height: 150px;
+    width: 15px;
+    background-color: gray;
+    margin-left: 24px;
+    border-radius: 10px;
+}
+.rbox:hover{
+    background-color: red;
+}
+.obox:hover{
+    background-color: orange;
+}
+.gbox:hover{
+    background-color: green;
+}
