@@ -1,0 +1,21 @@
+a:link
+{
+    background-color: aquamarine;
+}
+a:active
+{
+    background-color:lawngreen;
+    color:white;
+}
+a:visited
+{
+   color: indianred;
+}
+.para::first-letter
+{
+    font-size: 50px;
+}
+.para::first-line
+{
+    background-color: chartreuse;
+}

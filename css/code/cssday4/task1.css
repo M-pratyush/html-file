@@ -1,0 +1,28 @@
+*
+{
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+    display: none;
+}
+.side{
+    display: inline-block;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+img{
+    filter:drop-shadow(10px 15px 15px rgb(13, 247, 169));
+    border-radius: 100%;
+}
+img:hover{
+    transform: rotate(50deg);
+}

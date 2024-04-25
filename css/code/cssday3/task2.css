@@ -1,0 +1,15 @@
+/*.form-control:hover{
+    background-color: aquamarine;
+}
+*/
+.form-control:hover
+{
+    background-color: rgb(75, 160, 235);
+}
+.form-control:focus{
+    background-color: brown;
+}
+input:required
+{
+    background-color: aquamarine;
+}
