@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.main{
+    background-color: lavender;
+    border: 1px solid black;
+    flex-direction: column;
+    height: 35vh;
+    width: 50vw;
+}
+.box{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 50px;
+    border: 1px solid wheat;
+}
+.box2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.box3{
+    position: absolute;
+    top: 130px;
+} 

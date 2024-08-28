@@ -1,13 +1,29 @@
 .main{
     display: flex;
     border: 1px solid black;
+    width: 100%;
+    height: 100%;
     flex-direction: row;
-    width: 300px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: end;
+    justify-items: center
 }
-.box{
+.box{ 
     height: 50px;
     width: 50px;
     background-image: linear-gradient(rgb(0, 255, 179),rgb(248, 176, 42));
     border: 1px solid white;
+    
+}
+.one{
+   order: 1;
+}
+.two{
+    order: 2;
+}
+.three{
+    
 }

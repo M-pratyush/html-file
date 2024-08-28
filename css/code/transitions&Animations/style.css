@@ -1,0 +1,20 @@
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(68, 199, 181);
+    background-color: rgb(182, 219, 219);
+    transition-property: background-color;
+    transition: all 5s ease;
+}
+.box:hover{
+    background-image: linear-gradient(rgba(30, 144, 179, 0.904),rgb(178, 230, 95));
+    height: 150px;
+    width: 150px;
+    transform: scale(1.5);
+}

@@ -1,0 +1,31 @@
+.main{
+    display: grid;
+    height: 400px;
+    width: 400px;
+    border: 1px solid ;
+}
+.box{
+    background-color: cadetblue;
+    border: 1px solid white;
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.two{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.three{
+    grid-row-start: 3;
+    grid-column-end: 2;
+}
+.four{
+    grid-row-start: 2;
+}
+.five{
+    grid-row-start: 3;
+}
+.six{
+    grid-area: 2/3/4/4;
+}
