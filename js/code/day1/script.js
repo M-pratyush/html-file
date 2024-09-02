@@ -4,19 +4,24 @@ console.log(Math.min(10,4))
 console.log(Math.round(4.6))
 var str= "pratyush"
 console.log(str,typeof(str))
+
 //Template Literal string
-var cost=200,quentity=5;
-console.log(`total cost of item are ${cost*quentity}`)
+var cost=200, quantity=5;
+console.log(`the total cost of item are ${cost*quantity}`)
+
+
+
 //string Built-in method
-var str="Pratyush Kumar"
+var str="Js is very easy"
 console.log(str.length)
-console.log(str.indexOf('a'))
-console.log(str.lastIndexOf('a'))
-console.log(str.charAt(9))
+console.log(str.indexOf('e'))
+console.log(str.lastIndexOf('e'))
+console.log(str.split(''))
+console.log(str.split('').reverse().join(''))
 console.log(str.toUpperCase())
 console.log(str.toLowerCase())
-console.log(str.split(""))
-console.log(["js","is","good"].join(" "))
+console.log(str +" good")
+
 //Interview Question
 // PRATYUSH---> HSUYTARP
 var str="PRATYUSH"
