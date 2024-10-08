@@ -1,0 +1,7 @@
+STRING:
+---------
+--string is a sequence of Characters used to represent text.
+--string always behave like objects.
+
+Trim:
+--Trim 

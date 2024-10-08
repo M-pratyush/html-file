@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fecfef, #fad0c4); /* Gradient with smooth pastel colors */
+    color: #333;
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite; /* Animated background */
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.25); /* Translucent background for glossy effect */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5); /* Glossy box with transparency */
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in;
+    border-radius: 12px;
+}
+
+.cell:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+}
+
+.cell:active {
+    background-color: rgba(181, 247, 120, 0.8); /* Yellow glow effect on click */
+    transform: scale(0.98);
+}
+
+.cell.X {
+    color: #ff1744;
+    animation: markX 0.5s ease forwards;
+}
+
+.cell.O {
+    color: #2979ff;
+    animation: markO 0.5s ease forwards;
+}
+
+@keyframes markX {
+    0% { transform: rotateY(90deg); }
+    100% { transform: rotateY(0deg); }
+}
+
+@keyframes markO {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cell.marked {
+    animation: scaleUp 0.5s ease;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

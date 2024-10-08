@@ -1,0 +1,7 @@
+The change in the state of an object is known as an event.
+Events are fired to notify code pf "interesting changes" that may affect code execution.
+        
+        -> Mouse Event(click, double click etc..)
+        -> Keyboard Events(keypress, Keyup, Keydown)
+        -> Form Events(submit etc..)
+        -> print Event & many more

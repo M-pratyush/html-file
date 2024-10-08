@@ -1,0 +1,5 @@
+LOOP IN JS:
+--Loops are used to execute a piece of code again and again.
+
+Note:
+For in loop 

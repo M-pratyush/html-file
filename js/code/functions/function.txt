@@ -1,0 +1,6 @@
+CallBack Function:
+-------------------
+-Here it is function to execute for each element in the array.
+-a callback is fnction passed as an argument to another function.
+     .Syntax:
+       arr.forEach(function (function_name))

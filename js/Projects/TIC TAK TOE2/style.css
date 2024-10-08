@@ -1,0 +1,132 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+body{
+    background-color: #8d99ae ;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vmin;
+    width: 80vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: #2b2d42;
+    box-shadow:0 0 1rem 5px rgba(0,0,0,0.5);
+    
+    
+    
+}
+.cell{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgba(0,0,0,0.5);
+    font-size: 10vmin;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 600;
+    color: #ef233c;
+}
+
+
+.main{
+    padding: 20px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.8vmin;
+}
+main{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    font-family: "Rubik Bubbles", system-ui;
+  }
+  
+  #button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  #button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  #button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  #button:hover span {
+    transform: translateX(7px);
+  }
+
+.logo {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    }
+      
+
+span{
+    color: #f2e9e4;
+}
+
+#new-game{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: fff;
+    border: none;
+    border-radius: 1.3rem;
+    color: #2b2d42;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 900;
+    background-color: #fefae0;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    color: #2b2d42;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 900;
+    font-size: 5rem;
+}
+.hide{
+    display: none;
+}
+

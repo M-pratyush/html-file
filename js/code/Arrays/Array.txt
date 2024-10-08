@@ -1,0 +1,10 @@
+Array:
+-------
+-Array is a collection of items.
+-Array is a special object type.
+-Array is mutable.
+
+Looping over Array:
+--------------------
+
+
