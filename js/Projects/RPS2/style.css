@@ -48,6 +48,7 @@ img:hover {
 /* Flex layout for choices */
 .choices {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3rem;
