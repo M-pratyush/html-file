@@ -147,3 +147,21 @@ img:hover {
         transform: scale(1);
     }
 }
+@media (max-width: 768px) {
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+    img {
+        height: 90px;
+        width: 90px;
+    }
+    .score-board {
+        font-size: 2rem;
+        gap: 3rem;
+    }
+    #msg {
+        padding: 0.8rem;
+    }
+}
+
