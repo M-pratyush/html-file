@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>STONE PAPER SCISSOR</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png" alt="STONE">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png" alt="PEPER">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./images/scissors.png" alt="SCISSOR">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>YOU</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>COMP</p>
+        </div>   
+    </div>
+<!--Display Score-->
+    <div class="msg-container">
+        <p id="msg">Play Your Move</p>
+    </div>
+<!--Win and lose Audio File-->
+<audio id="win-sound" src="./audio/game-character-140506.mp3"></audio>
+<audio id="lose-sound" src="./audio/game-over-female-gfx-sounds-1-00-01.mp3"></audio>
+<audio id="draw-sound" src="audio/wrong-answer-sound-effect.mp3"></audio>
+<script src="./script.js"></script>
+</body>
+</html>
